@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>Building</Name>
+		<Assembly>InitialAPP.dll</Assembly>
+		<AddInId>9D279774-2B74-455B-B15E-04AF22DBD828</AddInId>
+		<FullClassName>InitialAPP.AddinClass</FullClassName>
+		<Text>Excel file into levels, views</Text>
+		<Description>make levels and plan views from excel</Description>
+		<VendorId>ITI-Mesawy</VendorId>
+		<VendorDescription>BIM Development</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>Building</Name>
+		<Assembly>InitialAPP.dll</Assembly>
+		<AddInId>8449C8D2-3F67-4085-B10B-31B1FEE530A9</AddInId>
+		<FullClassName>InitialAPP.PluginClass</FullClassName>
+		<Text>Create column</Text>
+		<Description> Create column</Description>
+		<VendorId>ITI-Mesawy</VendorId>
+		<VendorDescription>BIM Development</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>

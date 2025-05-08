@@ -36,6 +36,36 @@
     <ApplicationManifest>new.addin</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ASCADLinkMgd, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASCADLinkMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASControls.dll</HintPath>
+    </Reference>
+    <Reference Include="ASGeometryMgd, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASGeometryMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASMgd, Version=1.0.8259.7508, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASModelerMgd, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASModelerMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASNetRuntime, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASNetRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="ASObjectsMgd, Version=1.0.8259.7327, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASObjectsMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASProfilesMgd, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASProfilesMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="ASSteelControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\ASSteelControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetRoots, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\PH.AdvanceSteel.API.2023.0.3\lib\net47\DotNetRoots.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
